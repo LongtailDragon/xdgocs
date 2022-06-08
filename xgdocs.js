@@ -31,6 +31,9 @@ javascript:(function(){
 	var el = document.querySelector('.cell-input');
 		if (el!==null) el.style.backgroundColor = "black";
 		if (el!==null) el.style.color = "green";
+		
+	var el = document.querySelector('.fal ');
+		if (el!==null) el.style.color = "green";
     
     var el = document.querySelector('.docs-title-input');
 		if (el!==null) el.style.backgroundColor = "green";
