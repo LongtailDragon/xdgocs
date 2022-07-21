@@ -92,6 +92,16 @@ javascript:(function(){
 		if (el!==null) el.style.background = "black";
 		if (el!==null) el.style.color = "green";
 		
+	var el = document.querySelector('.UeVsd');
+		if (el!==null) el.style.color = "black";
+		if (el!==null) el.style.backgroundColor = "green";
+		
+	var el = document.querySelector('.monaco-editor.no-user-select .lines-content, .monaco-editor.no-user-select .view-line, .monaco-editor.no-user-select .view-lines');
+		if (el!==null) el.style.backgroundColor = "black";
+		
+	var el = document.querySelector('.monaco-editor .margin');
+		if (el!==null) el.style.backgroundColor = "black";
+		
     
     document.querySelectorAll('.goog-toolbar-button').forEach(function(el){
         el.style.backgroundColor = "black";
@@ -124,6 +134,32 @@ javascript:(function(){
     document.querySelectorAll('.navigation-item-content').forEach(function(el){
         el.style.color = "green";
         el.style.fontFamily = "'Source Code Pro', monospace;";
+    });
+	
+	document.querySelectorAll('.mtk1').forEach(function(el){
+        el.style.color = "#00ff00";
+    });
+	
+	document.querySelectorAll('.mtk5').forEach(function(el){
+		/* Apps Script Intergers */
+        el.style.color = "yellow";
+    });
+	
+	document.querySelectorAll('.mtk7').forEach(function(el){
+		/* Apps Script Strings */
+        el.style.color = "lightGray";
+    });
+	
+	document.querySelectorAll('.mtk16').forEach(function(el){
+        el.style.color = "green";
+    });
+	
+	document.querySelectorAll('.mtk19').forEach(function(el){
+        el.style.color = "#00ff00";
+    });
+	
+	document.querySelectorAll('.mtk31').forEach(function(el){
+        el.style.color = "darkGreen";
     });
     
 })()
