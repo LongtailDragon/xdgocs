@@ -72,6 +72,26 @@ javascript:(function(){
     
     var el = document.querySelector('.navigation-widget-header');
 		if (el!==null) el.style.color = "green";
+		
+	var el = document.querySelector('#gb');
+		if (el!==null) el.style.backgroundColor = "black";
+		
+	var el = document.querySelector('.KOiXb');
+		if (el!==null) el.style.color = "green";
+		
+	var el = document.querySelector('.Gn5yxe');
+		if (el!==null) el.style.backgroundColor = "green";
+		
+	var el = document.querySelector('.ZHQ5U.ZHQ5U');
+		if (el!==null) el.style.backgroundColor = "black";
+		
+	var el = document.querySelector('.td5WLe');
+		if (el!==null) el.style.backgroundColor = "black";
+		
+	var el = document.querySelector('.asc_FolderRoot');
+		if (el!==null) el.style.background = "black";
+		if (el!==null) el.style.color = "green";
+		
     
     document.querySelectorAll('.goog-toolbar-button').forEach(function(el){
         el.style.backgroundColor = "black";
