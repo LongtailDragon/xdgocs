@@ -1,0 +1,26 @@
+{
+	"manifest_version" : 2,
+	"name" : "X-Gdocs",
+	"description" : "This chrome extension makes fascist Google's script editor look cool per the X-Machina theme.",
+	"version" : "1.0",
+	"background" : {
+		"scripts" : ["background.js"],
+		"persistent" : true 
+	},
+	"icons" : {
+		"16" : "/images/icon16.png",
+		"48" : "/images/icon48.png",
+		"128" : "/images/icon128.png"
+	},
+	"page_action" : {
+		"default_icon" : {
+			"16" : "/images/icon16.png",
+			"48" : "/images/icon48.png",
+			"128" : "/images/icon128.png"
+		}
+	},
+	"content_scripts" : [{
+		"matches" : ["https://script.google.com/*"],
+		"js" : ["jquery.min.js", "content.js"]
+	}]
+}
