@@ -198,9 +198,19 @@ function makeItAwesomer(){
         /* Apps Script Strings */
         el.style.color = "lightGray";
     });
+    
+    document.querySelectorAll('.mtk15').forEach(function(el){
+        /* Apps Script Variables */
+        el.style.color = "green";
+    });
 
     document.querySelectorAll('.mtk16').forEach(function(el){
         el.style.color = "green";
+    });
+    
+    document.querySelectorAll('.mtk17').forEach(function(el){
+        /* Apps Script Keywords */
+        el.style.color = "#00ff00";
     });
 
     document.querySelectorAll('.mtk19').forEach(function(el){
