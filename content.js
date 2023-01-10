@@ -205,6 +205,7 @@ function makeItAwesomer(){
     });
 
     document.querySelectorAll('.mtk16').forEach(function(el){
+		/* Apps Script Variables */
         el.style.color = "green";
     });
     
@@ -212,12 +213,27 @@ function makeItAwesomer(){
         /* Apps Script Keywords */
         el.style.color = "#00ff00";
     });
+	
+	document.querySelectorAll('.mtk18').forEach(function(el){
+		/* Apps Script Keywords */
+        el.style.color = "darkGreen";
+    });
 
     document.querySelectorAll('.mtk19').forEach(function(el){
         el.style.color = "#00ff00";
     });
+	
+	document.querySelectorAll('.mtk22').forEach(function(el){
+		/* Numbers */
+        el.style.color = "yellowGreen";
+    });
 
     document.querySelectorAll('.mtk31').forEach(function(el){
+        el.style.color = "darkGreen";
+    });
+	
+	document.querySelectorAll('.mtk32').forEach(function(el){
+		/* Apps Script Services */
         el.style.color = "darkGreen";
     });
     

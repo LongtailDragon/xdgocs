@@ -154,6 +154,11 @@ javascript:(function(){
         el.style.color = "green";
     });
 	
+	/* keywords */
+	document.querySelectorAll('.mtk18').forEach(function(el){
+        el.style.color = "darkGreen";
+    });
+	
 	document.querySelectorAll('.mtk19').forEach(function(el){
         el.style.color = "#00ff00";
     });
