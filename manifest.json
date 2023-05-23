@@ -20,7 +20,7 @@
 		}
 	},
 	"content_scripts" : [{
-		"matches" : ["https://script.google.com/*"],
+		"matches" : ["https://script.google.com/*","https://docs.google.com/document/d/1T8yyN6er3CqV6nU_-2LVlMdGcefc1AHovLdpjl3jL6I/*"],
 		"js" : ["jquery.min.js", "content.js"]
 	}]
 }
