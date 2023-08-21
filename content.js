@@ -24,7 +24,11 @@
 $(document).ready(function() {
 	
 	var title = document.title;
-	if (title == "Dreamweaver v3.0 - Google Docs"){
+	if (
+		title == "Dreamweaver v3.0 - Google Docs" ||
+		title == "Acts Outline 3.0 - Google Docs" ||
+		title == "Calendar - Google Docs"
+	){
 		makeDreamweaverAwesome();
 	} else {
 		const targetNode = document.body;

@@ -20,7 +20,7 @@
 		}
 	},
 	"content_scripts" : [{
-		"matches" : ["https://script.google.com/*","https://docs.google.com/document/d/1T8yyN6er3CqV6nU_-2LVlMdGcefc1AHovLdpjl3jL6I/*"],
+		"matches" : ["https://script.google.com/*","https://docs.google.com/document/d/1T8yyN6er3CqV6nU_-2LVlMdGcefc1AHovLdpjl3jL6I/*","https://docs.google.com/document/d/1RkHL4tsaU7K7utge9tUvY_i5N6Hlv17F_dz088WswFA/*","https://docs.google.com/document/d/1-QmzBzOFMo9s-dB4dzeO6hiQBfjnjDaTliDlWveg53g/*"],
 		"js" : ["jquery.min.js", "content.js"]
 	}]
 }
